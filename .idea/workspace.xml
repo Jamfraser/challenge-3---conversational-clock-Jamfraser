@@ -5,13 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82eb3de0-4c80-4d00-bb3a-225ba2b136fe" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/time/ConversationTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/time/ConversationalClock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/time/SystemTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/time/TimeProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/formatter/ClockFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/formatter/DefaultClockFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/time/SystemTimeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/challenge3conversationalclockjamfraser/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/challenge3conversationalclockjamfraser/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/challenge3conversationalclockjamfraser/ConversationalClock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,9 +48,39 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/jamfr/Documents/GitHub/challenge-3---conversational-clock-Jamfraser/src/test/java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jamfr\Documents\GitHub\challenge-3---conversational-clock-Jamfraser\src\test\java" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="SystemTimeTest.shouldTestGetCurrentTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="challenge-3---conversational-clock-Jamfraser" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.time.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.time" />
+      <option name="MAIN_CLASS_NAME" value="com.time.SystemTimeTest" />
+      <option name="METHOD_NAME" value="shouldTestGetCurrentTime" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SystemTimeTest.shouldTestGetCurrentTime" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
