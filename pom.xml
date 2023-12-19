@@ -61,7 +61,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                com.example.challenge3conversationalclockjamfraser/com.example.challenge3conversationalclockjamfraser.HelloApplication
+                                com.example.challenge3conversationalclockjamfraser/com.example.challenge3conversationalclockjamfraser.ConversationalClock
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
