@@ -5,19 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82eb3de0-4c80-4d00-bb3a-225ba2b136fe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/time/ConversationTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/time/ConversationalClock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/time/SystemTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/time/TimeProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/formatter/ClockFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/formatter/DefaultClockFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/time/SystemTimeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/time/DefaultClockFormatterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/challenge3conversationalclockjamfraser/ConversationalClock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/time/ConversationTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/time/ConversationTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/time/ConversationalClock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/time/ConversationalClock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/time/TimeProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/time/TimeProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/formatter/ClockFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/formatter/ClockFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/formatter/DefaultClockFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/formatter/DefaultClockFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/time/SystemTimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/time/SystemTimeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +31,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2Zm3GbTwzVzKsXN8tz02hEgSnoX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -50,6 +46,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/jamfr/Documents/GitHub/challenge-3---conversational-clock-Jamfraser/src/test/java"
   }
 }]]></component>
@@ -58,8 +55,8 @@
       <recent name="C:\Users\jamfr\Documents\GitHub\challenge-3---conversational-clock-Jamfraser\src\test\java" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="SystemTimeTest.shouldTestGetCurrentTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DefaultClockFormatterTest">
+    <configuration name="DefaultClockFormatterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="challenge-3---conversational-clock-Jamfraser" />
       <extension name="coverage">
         <pattern>
@@ -68,8 +65,71 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.time" />
-      <option name="MAIN_CLASS_NAME" value="com.time.SystemTimeTest" />
-      <option name="METHOD_NAME" value="shouldTestGetCurrentTime" />
+      <option name="MAIN_CLASS_NAME" value="com.time.DefaultClockFormatterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DefaultClockFormatterTest.testFormatHalfPast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="challenge-3---conversational-clock-Jamfraser" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.time.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.time" />
+      <option name="MAIN_CLASS_NAME" value="com.time.DefaultClockFormatterTest" />
+      <option name="METHOD_NAME" value="testFormatHalfPast" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DefaultClockFormatterTest.testFormatOnTheHour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="challenge-3---conversational-clock-Jamfraser" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.time.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.time" />
+      <option name="MAIN_CLASS_NAME" value="com.time.DefaultClockFormatterTest" />
+      <option name="METHOD_NAME" value="testFormatOnTheHour" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DefaultClockFormatterTest.testFormatQuarterPast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="challenge-3---conversational-clock-Jamfraser" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.time.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.time" />
+      <option name="MAIN_CLASS_NAME" value="com.time.DefaultClockFormatterTest" />
+      <option name="METHOD_NAME" value="testFormatQuarterPast" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DefaultClockFormatterTest.testFormatQuarterTo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="challenge-3---conversational-clock-Jamfraser" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.time.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.time" />
+      <option name="MAIN_CLASS_NAME" value="com.time.DefaultClockFormatterTest" />
+      <option name="METHOD_NAME" value="testFormatQuarterTo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -77,7 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SystemTimeTest.shouldTestGetCurrentTime" />
+        <item itemvalue="JUnit.DefaultClockFormatterTest" />
+        <item itemvalue="JUnit.DefaultClockFormatterTest.testFormatQuarterTo" />
+        <item itemvalue="JUnit.DefaultClockFormatterTest.testFormatQuarterPast" />
+        <item itemvalue="JUnit.DefaultClockFormatterTest.testFormatHalfPast" />
+        <item itemvalue="JUnit.DefaultClockFormatterTest.testFormatOnTheHour" />
       </list>
     </recent_temporary>
   </component>
@@ -91,5 +155,16 @@
       <updated>1703013334813</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

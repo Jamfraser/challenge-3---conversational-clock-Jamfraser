@@ -4,7 +4,7 @@ import formatter.ClockFormatter;
 import formatter.DefaultClockFormatter;
 
 public class ConversationalClock {
-    // the conversational clock will contain a TimeProvider and a ClockFormatter
+    // the conversational clock contains a TimeProvider and a ClockFormatter
     private final TimeProvider timeProvider;
     private final ClockFormatter clockFormatter;
 
@@ -17,10 +17,8 @@ public class ConversationalClock {
     public String currentTime() {
         // Get the current time from the TimeProvider
         // Convert it to a conversational format using the ClockFormatter
-        // Return the formatted time as a String
-        // Example: return "It's three o'clock"
-
         ConversationTime conversationTime = new ConversationTime(timeProvider.getCurrentTime());
+        // Return the formatted time as a String
         return clockFormatter.format(conversationTime);
     }
 

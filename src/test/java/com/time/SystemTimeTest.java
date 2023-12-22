@@ -18,8 +18,9 @@ public class SystemTimeTest {
         LocalTime currentTime1 = systemTime.getCurrentTime();
         LocalTime currentTime2 = systemTime.getCurrentTime();
 
-        // assert that the two times we just got are the same
+        // get the difference between the two times we just recorded in seconds
         long timeDifferenceInSeconds = ChronoUnit.SECONDS.between(currentTime1, currentTime2);
+        // assert that the two times we just got are within one second of one another
         assertEquals(0, timeDifferenceInSeconds, "SystemTime should return the same time on subsequent calls");
     }
 

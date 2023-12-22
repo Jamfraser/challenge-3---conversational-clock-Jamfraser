@@ -3,17 +3,26 @@ package com.time;
 import java.time.LocalTime;
 public class ConversationTime {
 
-        private final LocalTime time;
+    // variable to hold the LocalTime
+    private final LocalTime time;
 
-        public ConversationTime(LocalTime time) {
-            this.time = time;
-        }
+    // constructor where we can pass in a specific time
+    public ConversationTime(LocalTime time) {
+        this.time = time;
+    }
 
-        // add methods to retrieve hours, minutes, etc
+    // methods to retrieve hours, minutes, etc
+    public int getHours() {
+        return time.getHour();
+    }
+
+    public int getMinutes() {
+        return time.getMinute();
+    }
 
     @Override
     public String toString() {
-            // customize later
-            return time.toString();
+        // customize later
+        return time.toString();
     }
 }
