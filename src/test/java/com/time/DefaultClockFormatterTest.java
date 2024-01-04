@@ -118,6 +118,60 @@ public class DefaultClockFormatterTest {
     }
 
     @Test
+    public void testFuzzyResponse() {
+        // test formatting when the minute is 5 minutes or less to the next hour
+        ConversationTime conversationTime = new ConversationTime(LocalTime.of(9, 58));
+        String formattedTime = formatter.format(conversationTime);
+        // assert that the time is formatted correctly into a String
+        assertEquals("It's almost ten AM.", formattedTime);
+
+        // test formatting when the minute is 10 minutes or less to the next hour, but greater than 5
+        conversationTime = new ConversationTime(LocalTime.of(21, 52));
+        formattedTime = formatter.format(conversationTime);
+        // assert that the time is formatted correctly into a String
+        assertEquals("It's 8 minutes to ten PM.", formattedTime);
+
+        // test formatting when the minute is less than 5 minutes past the hour
+        conversationTime = new ConversationTime(LocalTime.of(6, 3));
+        formattedTime = formatter.format(conversationTime);
+        // assert that the time is formatted correctly into a String
+        assertEquals("It's just past six AM.", formattedTime);
+
+        // test formatting when the minute is 10 minutes or less past the hour, but greater than 5
+        conversationTime = new ConversationTime(LocalTime.of(23, 8));
+        formattedTime = formatter.format(conversationTime);
+        // assert that the time is formatted correctly into a String
+        assertEquals("It's 8 minutes past eleven PM.", formattedTime);
+    }
+
+    @Test
+    public void testFuzzyResponsesForNoonAndMidnight() {
+        // test formatting when the minute 5 minutes or less to noon
+        ConversationTime conversationTime = new ConversationTime(LocalTime.of(11, 55));
+        String formattedTime = formatter.format(conversationTime);
+        // assert that the time is formatted correctly into a String
+        assertEquals("It's almost noon.", formattedTime);
+
+        // test formatting when the minute is 10 minutes or less to noon, but greater than 5
+        conversationTime = new ConversationTime(LocalTime.of(11, 51));
+        formattedTime = formatter.format(conversationTime);
+        // assert that the time is formatted correctly into a String
+        assertEquals("It's 9 minutes to noon.", formattedTime);
+
+        // test formatting when the minute 5 minutes or less to midnight
+        conversationTime = new ConversationTime(LocalTime.of(23, 55));
+        formattedTime = formatter.format(conversationTime);
+        // assert that the time is formatted correctly into a String
+        assertEquals("It's almost midnight.", formattedTime);
+
+        // test formatting when the minute is 10 minutes or less to midnight, but greater than 5
+        conversationTime = new ConversationTime(LocalTime.of(23, 50));
+        formattedTime = formatter.format(conversationTime);
+        // assert that the time is formatted correctly into a String
+        assertEquals("It's 10 minutes to midnight.", formattedTime);
+    }
+
+    @Test
     public void testFormatDefault() {
 
         // test formatting when the minute is not 0, 15, 30 or 45
